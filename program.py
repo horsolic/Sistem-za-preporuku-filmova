@@ -18,7 +18,7 @@ zanr_opcije = np.sort(list(set(Genres.columns) - set(['genres_label','Genres']))
 
 
 #Postavljanje izgleda stranice same aplikacije
-st.set_page_config(layout="wide", page_title="Sistem za preporuku filmova")
+st.set_page_config(layout="wide", page_title="Sistem preporuke filmova")
 API_KEY = '3c810a39'
 show_columns = ['Title','Rating','Votes','Genres', 'Year','Runtime']
 
