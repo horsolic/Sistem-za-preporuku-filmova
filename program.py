@@ -39,7 +39,7 @@ recenzije_filmovi= st.slider('Odaberi IMDB recenziju', 1,10,(6,10))
 glasovi_filmovi= st.slider('Odaberi broj recenzija na IMDB-u', 20,2500000, (100000,1000000))
 vrijeme_trajanja_filmovi= st.slider('Odaberi vrijeme trajanja filma', 2,1500,(90,240))
 
-#stavranje varijebale koja filtrira podatke po zadanim parametrima
+#stavranje varijable koja filtrira podatke po zadanim parametrima
 Film_subset = Filmovi[(Filmovi.Year        >= godine_filmovi[0])    & \
                     (Filmovi.Year        <= godine_filmovi[1])    & \
                     (Filmovi.Rating      >= recenzije_filmovi[0])  & \
