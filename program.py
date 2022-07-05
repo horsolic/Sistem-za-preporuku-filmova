@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import re
+import sklearn
 import streamlit as st
 import requests
 import pickle
