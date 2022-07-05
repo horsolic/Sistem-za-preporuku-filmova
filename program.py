@@ -138,7 +138,6 @@ scol1.image(OMDB_query['Poster'].item())
 ######################### POPIS PREPORUČENIH FILMOVA ########################
 st.markdown("""---""")
 st.subheader(f'{Film_subset.shape[0]} preporučenih filmova koji odgovaraju zadanim kriterijima')
-color_by = 'Genres'
 show_columns_Film_subset = show_columns
 suffix_table_expander = 'koji odgovaraju zadanim kriterijima' 
 
