@@ -4,7 +4,6 @@ import re
 import streamlit as st
 import requests
 import pickle
-from sklearn.preprocessing import LabelEncoder
 
 #Prikupljanje podataka 
 Filmovi= pickle.load(open("data/movies.pkl","rb"))
